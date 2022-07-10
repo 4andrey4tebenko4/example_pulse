@@ -1,0 +1,13 @@
+@media (max-width: 576px) {
+    .modal {
+        width: 330px;
+        top: 45%;
+        left: 45%;
+        &__close {
+            right: -35px;
+        }
+        .feed-form {
+            width: 260px;
+        }
+    }
+}

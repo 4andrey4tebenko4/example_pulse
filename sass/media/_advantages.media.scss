@@ -1,0 +1,39 @@
+@media (max-width: 992px) {
+    .advantages {
+        &__wrapper {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .advantages {
+        &__wrapper {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        &__item {
+            margin: 30px auto;
+            max-width: 350px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+        &__subtitle {
+            margin-top: 25px;
+            font-size: 20px;
+        }
+        &__description {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .advantages {
+        .title {
+            font-size: 26px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@media (max-width: 992px) {
+    .comment {
+        &__img {
+            margin-left: 20px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .comment {
+        &__item {
+            margin-top: 80px;
+            flex-direction: column;
+        }
+        &__img {
+            margin-left: 0;
+        }
+        &__text {
+            margin-left: 0;
+            padding-right: 0;
+            text-align: center;
+        }
+        &__person {
+            padding-top: 20px;
+        }
+        &__description {
+            margin-top: 15px;
+            max-width: 320px;
+        }
+    }
+}

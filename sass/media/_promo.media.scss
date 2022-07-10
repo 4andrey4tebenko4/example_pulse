@@ -1,0 +1,41 @@
+@media (max-width: 992px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 38px;
+            line-height: 38px;
+        }
+        &__subheader {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .promo {
+        &__icons {
+            margin-top: 75px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .promo {
+        &__header {
+            text-align: center;
+            font-size: 36px;
+        }
+        &__subheader {
+            text-align: center;
+            line-height: 26px;
+        }
+        &__icons {
+            width: 325px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+}

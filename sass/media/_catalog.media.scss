@@ -1,0 +1,30 @@
+@media (max-width:768px) {
+    .catalog {
+        &__tabs {
+            margin-top: 60px;
+        }
+        &__tab {
+            width: 160px;
+            margin: 0 8px;
+            font-size: 15px;
+        }
+        .title {
+            padding-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .catalog {
+        .title {
+            font-size: 25px;
+        }
+        &__tabs {
+            flex-wrap: wrap;
+        }
+        &__tab {
+            width: 150px;
+            margin: 15px 8px;
+        }
+    }
+}
